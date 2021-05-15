@@ -13,7 +13,7 @@ Demo Application to apply Clean Architecture concepts
 
 ## Architecture
 
-In this project the concept of Clean Architecture is used with modular separation;
+In this project the concept of Clean Architecture is used with modular separation
 
 
 <p align="center">

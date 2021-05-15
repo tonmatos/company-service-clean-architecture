@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgresContainer
+    environment:
+      - POSTGRES_DB=companydb
+      - POSTGRES_PASSWORD=ton
+    ports:
+      - "5432:5432"
+#    volumes:
+#      - company_data:/var/lib/postgres
+
+#volumes:
+#  company_data:
